@@ -1,0 +1,24 @@
+{
+  "name": "scaredLove",
+  "version": "1.0.0",
+  "description": "A dating site to find your true love... who is most likely a horror monster",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DeadDuck83/scaredLove.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DeadDuck83/scaredLove/issues"
+  },
+  "homepage": "https://github.com/DeadDuck83/scaredLove#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
