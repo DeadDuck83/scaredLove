@@ -124,3 +124,265 @@ DATA:
     "lookingFor": "Woman",
     "score":[5,3,5,1,2,4,3,2,1];
 }
+
+
+
+<div class="row pb-3">
+            <div class='col-md-12 offset-md-2' id="q1">
+                <div class="col-md-12 px-0 mx-0">
+                    <label>How much do you like turtles?</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="q1" id="q1-1" value="option1">
+                    <label class="form-check-label" for="q1-1">1</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="q1" id="q1-2" value="option2">
+                    <label class="form-check-label" for="q1-2">2</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="q1" id="q1-3" value="option1">
+                    <label class="form-check-label" for="q1-3">3</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="q1" id="q1-4" value="option2">
+                    <label class="form-check-label" for="q1-4">4</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="q1" id="q1-5" value="option1">
+                    <label class="form-check-label" for="q1-5">5</label>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="row pb-3">
+            <div class='col-md-12 offset-md-2' id="q2">
+                <div class="col-md-12 px-0 mx-0">
+                    <label>How well do you remember your dreams in the morning?</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="q2" id="q2-1" value="option1">
+                    <label class="form-check-label" for="q2-1">1</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="q2" id="q2-2" value="option2">
+                    <label class="form-check-label" for="q2-2">2</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="q2" id="q2-3" value="option1">
+                    <label class="form-check-label" for="q2-3">3</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="q2" id="q2-4" value="option2">
+                    <label class="form-check-label" for="q2-4">4</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="q2" id="q2-5" value="option1">
+                    <label class="form-check-label" for="q2-5">5</label>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="row pb-3">
+            <div class='col-md-12 offset-md-2' id="q3">
+                <div class="col-md-12 px-0 mx-0">
+                    <label>How badly do you want to ruin a single persons career?</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="q3" id="q3-1" value="option1">
+                    <label class="form-check-label" for="q3-1">1</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="q3" id="q3-2" value="option2">
+                    <label class="form-check-label" for="q3-2">2</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="q3" id="q3-3" value="option1">
+                    <label class="form-check-label" for="q3-3">3</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="q3" id="q3-4" value="option2">
+                    <label class="form-check-label" for="q3-4">4</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="q3" id="q3-5" value="option1">
+                    <label class="form-check-label" for="q3-5">5</label>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="row pb-3">
+            <div class='col-md-12 offset-md-2' id="q4">
+                <div class="col-md-12 px-0 mx-0">
+                    <label>How important is height in a relationship?</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="q4" id="q4-1" value="option1">
+                    <label class="form-check-label" for="q4-1">1</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="q4" id="q4-2" value="option2">
+                    <label class="form-check-label" for="q4-2">2</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="q4" id="q4-3" value="option1">
+                    <label class="form-check-label" for="q4-3">3</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="q4" id="q4-4" value="option2">
+                    <label class="form-check-label" for="q4-4">4</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="q4" id="q4-5" value="option1">
+                    <label class="form-check-label" for="q4-5">5</label>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="row pb-3">
+            <div class='col-md-12 offset-md-2' id="q5">
+                <div class="col-md-12 px-0 mx-0">
+                    <label>Do you enjoy flying?</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="q5" id="q5-1" value="option1">
+                    <label class="form-check-label" for="q5-1">1</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="q5" id="q5-2" value="option2">
+                    <label class="form-check-label" for="q5-2">2</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="q5" id="q5-3" value="option1">
+                    <label class="form-check-label" for="q5-3">3</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="q5" id="q5-4" value="option2">
+                    <label class="form-check-label" for="q5-4">4</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="q5" id="q5-5" value="option1">
+                    <label class="form-check-label" for="q5-5">5</label>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="row pb-3">
+            <div class='col-md-12 offset-md-2' id="q6">
+                <div class="col-md-12 px-0 mx-0">
+                    <label>Do you like large houses?</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="q6" id="q6-1" value="option1">
+                    <label class="form-check-label" for="q6-1">1</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="q6" id="q6-2" value="option2">
+                    <label class="form-check-label" for="q6-2">2</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="q6" id="q6-3" value="option1">
+                    <label class="form-check-label" for="q6-3">3</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="q6" id="q6-4" value="option2">
+                    <label class="form-check-label" for="q6-4">4</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="q6" id="q6-5" value="option1">
+                    <label class="form-check-label" for="q6-5">5</label>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="row pb-3">
+            <div class='col-md-12 offset-md-2' id="q7">
+                <div class="col-md-12 px-0 mx-0">
+                    <label>How comfortable are you being out in nature... alone?</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="q7" id="q7-1" value="option1">
+                    <label class="form-check-label" for="q7-1">1</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="q7" id="q7-2" value="option2">
+                    <label class="form-check-label" for="q7-2">2</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="q7" id="q7-3" value="option1">
+                    <label class="form-check-label" for="q7-3">3</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="q7" id="q7-4" value="option2">
+                    <label class="form-check-label" for="q7-4">4</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="q7" id="q7-5" value="option1">
+                    <label class="form-check-label" for="q7-5">5</label>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="row pb-3">
+            <div class='col-md-12 offset-md-2' id="q8">
+                <div class="col-md-12 px-0 mx-0">
+                    <label>Do you consider yourself a bit of a wildcard? Spinning out of control at times.</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="q8" id="q8-1" value="option1">
+                    <label class="form-check-label" for="q8-1">1</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="q8" id="q8-2" value="option2">
+                    <label class="form-check-label" for="q8-2">2</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="q8" id="q8-3" value="option1">
+                    <label class="form-check-label" for="q8-3">3</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="q8" id="q8-4" value="option2">
+                    <label class="form-check-label" for="q8-4">4</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="q8" id="q8-5" value="option1">
+                    <label class="form-check-label" for="q8-5">5</label>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="row pb-3">
+            <div class='col-md-12 offset-md-2' id="q9">
+                <div class="col-md-12 px-0 mx-0">
+                    <label>Do you watch a lot of TV?</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="q9" id="q9-1" value="option1">
+                    <label class="form-check-label" for="q9-1">1</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="q9" id="q9-2" value="option2">
+                    <label class="form-check-label" for="q9-2">2</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="q9" id="q9-3" value="option1">
+                    <label class="form-check-label" for="q9-3">3</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="q9" id="q9-4" value="option2">
+                    <label class="form-check-label" for="q9-4">4</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="q9" id="q9-5" value="option1">
+                    <label class="form-check-label" for="q9-5">5</label>
+                </div>
+
+            </div>
