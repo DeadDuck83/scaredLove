@@ -8,7 +8,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
         crossorigin="anonymous">
-    <link rel="stylesheet" href="../data/style.css" type="text/css">
+    <link rel="stylesheet" href="/css/style.css" type="text/css">
 
     <title>Scared Love Survey</title>
 
@@ -19,12 +19,12 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                    <img src="../images/1600-hold-image.jpg" class="img-fluid" alt="Responsive image">
+                <img src="/images/1600-hold-image.jpg" class="img-fluid" alt="Responsive image">
             </div>
         </div>
         <div class="row">
             <div class="col-md-4">
-                    <img src="../images/500-hold-image.jpg" alt="Account Image" class="rounded-circle">
+                <img id="avatar" src="/images/500-hold-image.jpg" alt="Account Image" class="rounded-circle  img-fluid">
             </div>
             <div class="col-md-8">
                 <div class="col-md-12">
@@ -32,34 +32,32 @@
                 </div>
                 <div class='col-md-12'>
                     <div class="col-md-12 px-0 mx-0">
-                        <form>
-                            <div class="form-group">
 
-                                <input type="text" class="form-control" id="first-name" placeholder="First Name">
-                            </div>
-                            <div class="form-group">
+                        <div class="form-group">
 
-                                <input type="text" class="form-control" id="last-name" placeholder="Last Name">
-                            </div>
-                            <div class="form-group">
+                            <input type="text" class="form-control" id="first-name" placeholder="First Name">
+                        </div>
+                        <div class="form-group">
 
-                                    <input type="text" class="form-control" id="image-url" placeholder="Paste Your Image URL here">
-                                </div>
-                            <div class="col-md-12 px-0 mx-0">
-                                <label>Are you looking for a Man or Woman?</label>
-                            </div>
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-                                <label class="form-check-label" for="inlineRadio1">Man</label>
-                            </div>
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-                                <label class="form-check-label" for="inlineRadio2">Woman</label>
-                            </div>
-                            <div class="col-md-12 px-0 mx-0 py-3">
-                                <button type="submit" class="btn btn-primary" id="submit-account">Create Account</button>
-                            </div>
-                        </form>
+                            <input type="text" class="form-control" id="last-name" placeholder="Last Name">
+                        </div>
+                        <div class="form-group">
+
+                            <input type="text" class="form-control" id="image-url" placeholder="Paste Your Image URL here">
+                        </div>
+                        <div class="col-md-12 px-0 mx-0">
+                            <label>Are you looking for a Man or Woman?</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="manWoman" id="inlineRadio1" value="man">
+                            <label class="form-check-label" for="inlineRadio1">Man</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="manWoman" id="inlineRadio2" value="woman">
+                            <label class="form-check-label" for="inlineRadio2">Woman</label>
+                        </div>
+
+
                     </div>
 
                 </div>
@@ -74,29 +72,30 @@
                 <p>All the following questions will be based on a scale from 1 to 5. 1 being not likely, 5 being very likely.</p>
             </div>
         </div>
+
         <div class="row pb-3">
             <div class='col-md-12 offset-md-2' id="q1">
                 <div class="col-md-12 px-0 mx-0">
                     <label>How much do you like turtles?</label>
                 </div>
                 <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="q1" id="q1-1" value="option1">
+                    <input class="form-check-input" type="radio" name="q1" id="q1-1" value="1">
                     <label class="form-check-label" for="q1-1">1</label>
                 </div>
                 <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="q1" id="q1-2" value="option2">
+                    <input class="form-check-input" type="radio" name="q1" id="q1-2" value="2">
                     <label class="form-check-label" for="q1-2">2</label>
                 </div>
                 <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="q1" id="q1-3" value="option1">
+                    <input class="form-check-input" type="radio" name="q1" id="q1-3" value="3">
                     <label class="form-check-label" for="q1-3">3</label>
                 </div>
                 <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="q1" id="q1-4" value="option2">
+                    <input class="form-check-input" type="radio" name="q1" id="q1-4" value="4">
                     <label class="form-check-label" for="q1-4">4</label>
                 </div>
                 <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="q1" id="q1-5" value="option1">
+                    <input class="form-check-input" type="radio" name="q1" id="q1-5" value="5">
                     <label class="form-check-label" for="q1-5">5</label>
                 </div>
 
@@ -109,23 +108,23 @@
                     <label>How well do you remember your dreams in the morning?</label>
                 </div>
                 <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="q2" id="q2-1" value="option1">
+                    <input class="form-check-input" type="radio" name="q2" id="q2-1" value="1">
                     <label class="form-check-label" for="q2-1">1</label>
                 </div>
                 <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="q2" id="q2-2" value="option2">
+                    <input class="form-check-input" type="radio" name="q2" id="q2-2" value="2">
                     <label class="form-check-label" for="q2-2">2</label>
                 </div>
                 <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="q2" id="q2-3" value="option1">
+                    <input class="form-check-input" type="radio" name="q2" id="q2-3" value="3">
                     <label class="form-check-label" for="q2-3">3</label>
                 </div>
                 <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="q2" id="q2-4" value="option2">
+                    <input class="form-check-input" type="radio" name="q2" id="q2-4" value="4">
                     <label class="form-check-label" for="q2-4">4</label>
                 </div>
                 <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="q2" id="q2-5" value="option1">
+                    <input class="form-check-input" type="radio" name="q2" id="q2-5" value="5">
                     <label class="form-check-label" for="q2-5">5</label>
                 </div>
 
@@ -138,23 +137,23 @@
                     <label>How badly do you want to ruin a single persons career?</label>
                 </div>
                 <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="q3" id="q3-1" value="option1">
+                    <input class="form-check-input" type="radio" name="q3" id="q3-1" value="1">
                     <label class="form-check-label" for="q3-1">1</label>
                 </div>
                 <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="q3" id="q3-2" value="option2">
+                    <input class="form-check-input" type="radio" name="q3" id="q3-2" value="2">
                     <label class="form-check-label" for="q3-2">2</label>
                 </div>
                 <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="q3" id="q3-3" value="option1">
+                    <input class="form-check-input" type="radio" name="q3" id="q3-3" value="3">
                     <label class="form-check-label" for="q3-3">3</label>
                 </div>
                 <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="q3" id="q3-4" value="option2">
+                    <input class="form-check-input" type="radio" name="q3" id="q3-4" value="4">
                     <label class="form-check-label" for="q3-4">4</label>
                 </div>
                 <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="q3" id="q3-5" value="option1">
+                    <input class="form-check-input" type="radio" name="q3" id="q3-5" value="5">
                     <label class="form-check-label" for="q3-5">5</label>
                 </div>
 
@@ -167,23 +166,23 @@
                     <label>How important is height in a relationship?</label>
                 </div>
                 <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="q4" id="q4-1" value="option1">
+                    <input class="form-check-input" type="radio" name="q4" id="q4-1" value="1">
                     <label class="form-check-label" for="q4-1">1</label>
                 </div>
                 <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="q4" id="q4-2" value="option2">
+                    <input class="form-check-input" type="radio" name="q4" id="q4-2" value="2">
                     <label class="form-check-label" for="q4-2">2</label>
                 </div>
                 <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="q4" id="q4-3" value="option1">
+                    <input class="form-check-input" type="radio" name="q4" id="q4-3" value="3">
                     <label class="form-check-label" for="q4-3">3</label>
                 </div>
                 <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="q4" id="q4-4" value="option2">
+                    <input class="form-check-input" type="radio" name="q4" id="q4-4" value="4">
                     <label class="form-check-label" for="q4-4">4</label>
                 </div>
                 <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="q4" id="q4-5" value="option1">
+                    <input class="form-check-input" type="radio" name="q4" id="q4-5" value="5">
                     <label class="form-check-label" for="q4-5">5</label>
                 </div>
 
@@ -196,23 +195,23 @@
                     <label>Do you enjoy flying?</label>
                 </div>
                 <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="q5" id="q5-1" value="option1">
+                    <input class="form-check-input" type="radio" name="q5" id="q5-1" value="1">
                     <label class="form-check-label" for="q5-1">1</label>
                 </div>
                 <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="q5" id="q5-2" value="option2">
+                    <input class="form-check-input" type="radio" name="q5" id="q5-2" value="2">
                     <label class="form-check-label" for="q5-2">2</label>
                 </div>
                 <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="q5" id="q5-3" value="option1">
+                    <input class="form-check-input" type="radio" name="q5" id="q5-3" value="3">
                     <label class="form-check-label" for="q5-3">3</label>
                 </div>
                 <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="q5" id="q5-4" value="option2">
+                    <input class="form-check-input" type="radio" name="q5" id="q5-4" value="4">
                     <label class="form-check-label" for="q5-4">4</label>
                 </div>
                 <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="q5" id="q5-5" value="option1">
+                    <input class="form-check-input" type="radio" name="q5" id="q5-5" value="5">
                     <label class="form-check-label" for="q5-5">5</label>
                 </div>
 
@@ -225,23 +224,23 @@
                     <label>Do you like large houses?</label>
                 </div>
                 <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="q6" id="q6-1" value="option1">
+                    <input class="form-check-input" type="radio" name="q6" id="q6-1" value="1">
                     <label class="form-check-label" for="q6-1">1</label>
                 </div>
                 <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="q6" id="q6-2" value="option2">
+                    <input class="form-check-input" type="radio" name="q6" id="q6-2" value="2">
                     <label class="form-check-label" for="q6-2">2</label>
                 </div>
                 <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="q6" id="q6-3" value="option1">
+                    <input class="form-check-input" type="radio" name="q6" id="q6-3" value="3">
                     <label class="form-check-label" for="q6-3">3</label>
                 </div>
                 <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="q6" id="q6-4" value="option2">
+                    <input class="form-check-input" type="radio" name="q6" id="q6-4" value="4">
                     <label class="form-check-label" for="q6-4">4</label>
                 </div>
                 <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="q6" id="q6-5" value="option1">
+                    <input class="form-check-input" type="radio" name="q6" id="q6-5" value="5">
                     <label class="form-check-label" for="q6-5">5</label>
                 </div>
 
@@ -254,23 +253,23 @@
                     <label>How comfortable are you being out in nature... alone?</label>
                 </div>
                 <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="q7" id="q7-1" value="option1">
+                    <input class="form-check-input" type="radio" name="q7" id="q7-1" value="1">
                     <label class="form-check-label" for="q7-1">1</label>
                 </div>
                 <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="q7" id="q7-2" value="option2">
+                    <input class="form-check-input" type="radio" name="q7" id="q7-2" value="2">
                     <label class="form-check-label" for="q7-2">2</label>
                 </div>
                 <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="q7" id="q7-3" value="option1">
+                    <input class="form-check-input" type="radio" name="q7" id="q7-3" value="3">
                     <label class="form-check-label" for="q7-3">3</label>
                 </div>
                 <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="q7" id="q7-4" value="option2">
+                    <input class="form-check-input" type="radio" name="q7" id="q7-4" value="4">
                     <label class="form-check-label" for="q7-4">4</label>
                 </div>
                 <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="q7" id="q7-5" value="option1">
+                    <input class="form-check-input" type="radio" name="q7" id="q7-5" value="5">
                     <label class="form-check-label" for="q7-5">5</label>
                 </div>
 
@@ -283,23 +282,23 @@
                     <label>Do you consider yourself a bit of a wildcard? Spinning out of control at times.</label>
                 </div>
                 <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="q8" id="q8-1" value="option1">
+                    <input class="form-check-input" type="radio" name="q8" id="q8-1" value="1">
                     <label class="form-check-label" for="q8-1">1</label>
                 </div>
                 <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="q8" id="q8-2" value="option2">
+                    <input class="form-check-input" type="radio" name="q8" id="q8-2" value="2">
                     <label class="form-check-label" for="q8-2">2</label>
                 </div>
                 <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="q8" id="q8-3" value="option1">
+                    <input class="form-check-input" type="radio" name="q8" id="q8-3" value="3">
                     <label class="form-check-label" for="q8-3">3</label>
                 </div>
                 <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="q8" id="q8-4" value="option2">
+                    <input class="form-check-input" type="radio" name="q8" id="q8-4" value="4">
                     <label class="form-check-label" for="q8-4">4</label>
                 </div>
                 <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="q8" id="q8-5" value="option1">
+                    <input class="form-check-input" type="radio" name="q8" id="q8-5" value="5">
                     <label class="form-check-label" for="q8-5">5</label>
                 </div>
 
@@ -312,30 +311,102 @@
                     <label>Do you watch a lot of TV?</label>
                 </div>
                 <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="q9" id="q9-1" value="option1">
+                    <input class="form-check-input" type="radio" name="q9" id="q9-1" value="1">
                     <label class="form-check-label" for="q9-1">1</label>
                 </div>
                 <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="q9" id="q9-2" value="option2">
+                    <input class="form-check-input" type="radio" name="q9" id="q9-2" value="2">
                     <label class="form-check-label" for="q9-2">2</label>
                 </div>
                 <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="q9" id="q9-3" value="option1">
+                    <input class="form-check-input" type="radio" name="q9" id="q9-3" value="3">
                     <label class="form-check-label" for="q9-3">3</label>
                 </div>
                 <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="q9" id="q9-4" value="option2">
+                    <input class="form-check-input" type="radio" name="q9" id="q9-4" value="4">
                     <label class="form-check-label" for="q9-4">4</label>
                 </div>
                 <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="q9" id="q9-5" value="option1">
+                    <input class="form-check-input" type="radio" name="q9" id="q9-5" value="5">
                     <label class="form-check-label" for="q9-5">5</label>
                 </div>
 
             </div>
 
         </div>
+        <div class="col-md-12 px-0 mx-0 py-3">
+            <button type="submit" class="btn btn-primary" id="submit-account">Create Account</button>
+        </div>
 
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+    <script>
+
+        $("#image-url").change(function () {
+            $("#avatar").attr('src', $("#image-url").val());
+        })
+
+        $(document).ready(function () {
+            $("#submit-account").click(function (event) {
+                event.preventDefault();
+                var newPerson = {
+                    name: $("#first-name").val().trim() + " " + $("#last-name").val().trim(),
+                    imgURL: $("#image-url").val().trim(),
+                    lookingFor: $('input[name="manWoman"]:checked').val(),
+                    score: [
+                        $('input[name="q1"]:checked').val(),
+                        $('input[name="q2"]:checked').val(),
+                        $('input[name="q3"]:checked').val(),
+                        $('input[name="q4"]:checked').val(),
+                        $('input[name="q5"]:checked').val(),
+                        $('input[name="q6"]:checked').val(),
+                        $('input[name="q7"]:checked').val(),
+                        $('input[name="q8"]:checked').val(),
+                        $('input[name="q9"]:checked').val(),
+                    ]
+                };
+                $.post("/api/friends", newPerson,
+                    function (data) {
+                        $('#dateModal').modal({
+                            show: true
+                        })
+                        $("#modalTitle").text(data.name);
+                        $("#dateURL").attr('src', data.photo);
+                    });
+            })
+        });
+
+
+    </script>
+
+    <!-- Modal -->
+    <div class="modal fade" id="dateModal" tabindex="-1" role="dialog" aria-labelledby="myModal" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalTitle">Modal title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img id="dateURL" src="/images/1600-hold-image.jpg" class="img-fluid" alt="Responsive image">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
     </div>
 
 </body>
