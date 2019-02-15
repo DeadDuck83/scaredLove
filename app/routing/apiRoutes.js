@@ -7,6 +7,7 @@ module.exports = function (app) {
 
 
     app.post("/api/friends", function (req, res) {
+
         //This will be used to handle incoming survey results. This route will also be used to handle the compatibility logic.
         var newPerson = req.body;
         var bestMatch = {};
@@ -23,7 +24,8 @@ module.exports = function (app) {
                 closestMatch = totalDifference;
             }
         }
-        
+        console.log(newPerson);
+        friends.push(newPerson);
         res.json(bestMatch);
     });
 };
