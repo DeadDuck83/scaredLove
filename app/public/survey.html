@@ -9,12 +9,15 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
         crossorigin="anonymous">
     <link rel="stylesheet" href="/css/style.css" type="text/css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+        crossorigin="anonymous">
 
     <title>Scared Love Survey</title>
 
 </head>
 
 <body class="">
+       
 
     <div class="container">
         <div class="row">
@@ -334,8 +337,8 @@
             </div>
 
         </div>
-        <div class="col-md-12 px-0 mx-0 py-3">
-            <button type="submit" class="btn btn-primary" id="submit-account">Create Account</button>
+        <div class="col-md-12 px-0 mx-0 py-3 mb-5 text-center">
+            <button type="submit" class="btn btn-outline-danger" id="submit-account">Find that perfect match</button>
         </div>
 
 
@@ -382,6 +385,7 @@
                         })
                         $("#modalTitle").text(data.name);
                         $("#dateURL").attr('src', data.photo);
+                        $("#yourURL").attr('src', $("#image-url").val());
                     });
             })
         });
@@ -394,13 +398,31 @@
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="modalTitle">Modal title</h5>
+                    <p class="modal-title lead" id="modalParagraph">Your 'perfect' match is: </p>
+                    
+
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
                 <div class="modal-body">
-                    <img id="dateURL" src="/images/1600-hold-image.jpg" class="img-fluid" alt="Responsive image">
+                    <div class="row">
+                        <div class="col-md-12"><h5 class="modal-title" id="modalTitle">Modal title:</h5></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img id="dateURL" src="/images/1600-hold-image.jpg" class="img-fluid" alt="Responsive image">
+                        </div>
+                        <div class="col-md-2">
+                            <h1>
+                                <i class="far fa-kiss-wink-heart"></i>
+                            </h1>
+                        </div>
+                        <div class="col-md-5">
+                            <img id="yourURL" src="/images/1600-hold-image.jpg" class="img-fluid" alt="Responsive image">
+                        </div>
+                    </div>
+
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
