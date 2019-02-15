@@ -29,7 +29,7 @@
         </div>
         <div class="row">
             <div class="col-md-4">
-                <img id="avatar" src="/images/500-hold-image.jpg" alt="Account Image" class="rounded-circle  img-fluid">
+                <img id="avatar" src="/images/500-hold-image.png" alt="Account Image" class="white-outline rounded-circle  img-fluid">
             </div>
             <div class="col-md-8">
                 <div class="col-md-12">
@@ -380,7 +380,8 @@
                         $('input[name="q9"]:checked').val(),
                     ]
                 };
-                $.post("/api/friends", newPerson,
+                $.post("/api/friends", newPerson)
+                .then(
                     function (data) {
                         $('#dateModal').modal({
                             show: true
@@ -388,7 +389,7 @@
                         $("#modalTitle").text(data.name);
                         $("#dateURL").attr('src', data.photo);
                         $("#yourURL").attr('src', $("#image-url").val());
-                    });
+                    })
             })
         });
 
@@ -409,7 +410,7 @@
                 </div>
                 <div class="modal-body">
                     <div class="row">
-                        <div class="col-md-12"><h5 class="modal-title" id="modalTitle">Modal title:</h5></div>
+                        <div class="col-md-12 text-center pb-2"><h2 class="modal-title" id="modalTitle">Modal title:</h2></div>
                     </div>
                     <div class="row">
                         <div class="col-md-5">
@@ -426,9 +427,7 @@
                     </div>
 
                 </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                </div>
+                
             </div>
         </div>
     </div>
